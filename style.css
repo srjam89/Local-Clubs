@@ -174,3 +174,33 @@ footer span {
 footer span:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 812px) {
+   header {
+       height: auto;
+   }
+    nav  span {
+       display: block;
+       text-align: center;
+    }
+    .quote {
+        height: auto;
+    }
+
+    .running {
+        overflow: hidden;
+    }
+    .running img {
+        width: 100%;
+    }
+
+    .gallery {
+        overflow: hidden;
+    }
+    .gallery img {
+       width: 100%;
+    }
+    footer {
+        height: auto;
+    }
+}
