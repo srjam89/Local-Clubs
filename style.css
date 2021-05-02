@@ -9,6 +9,7 @@ html {
 body {
     margin: 0 0;
     text-align: center;
+    font-family: 'Lato';
 }
 
 .flex-container {
@@ -16,4 +17,54 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+header {
+    height: 85px;
+    background-color: #009de6;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    height: 75px;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: 'Lato';
+    padding-left: 5px;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+nav span {
+    font-size: 22px;
+    font-weight: 700;
+    padding-right: 15px;
+    text-decoration: underline;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    padding-top: 50px;
+}
+
+#club {
+    background-image: url(./Resources/Running-Club-London-Group-Photo.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 20rem;
+    letter-spacing: 0.2rem;
 }
